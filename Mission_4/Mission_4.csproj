@@ -16,7 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\index.html" />
     <None Include="wwwroot\library\bootstrap\css\bootstrap-grid.css.map" />
     <None Include="wwwroot\library\bootstrap\css\bootstrap-grid.min.css.map" />
     <None Include="wwwroot\library\bootstrap\css\bootstrap-reboot.css.map" />

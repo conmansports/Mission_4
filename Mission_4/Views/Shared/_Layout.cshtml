@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="icon" href="img/DuckHunting.JPG" type="image/icon type">
+</head>
+<body>
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="Form">Form</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>This is the footer. </footer>
+
+    <script src="library/bootstrap/js/bootstrap.min.js"></script>
+    <script src="library/Jquery/jquery-3.6.3.min.js"></script>
+
+</body>
+</html>

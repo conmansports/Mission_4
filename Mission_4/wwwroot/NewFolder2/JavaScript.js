@@ -57,6 +57,7 @@
         letterGrade = 'E';
     }
 
+    //alert("You got " + overAllGrade + " percent, which gives you a(n) " + letterGrade + " in the class.")
     //print results back to form
     $("#gradecalc").html("You got " + overAllGrade + " percent, which gives you a(n) " + letterGrade + " in the class.")
 })
